@@ -1,0 +1,117 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.20.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 111 111, 111, LIC=6XJTG-V1GJG-LV71I-T3MBP-GU9XC-3Y4JA
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.20
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 2 (build 183)
+Assembler:       Armasm.exe V5.06 update 2 (build 183)
+Linker/Locator:  ArmLink.exe V5.06 update 2 (build 183)
+Library Manager: ArmAr.exe V5.06 update 2 (build 183)
+Hex Converter:   FromElf.exe V5.06 update 2 (build 183)
+CPU DLL:         SARMCM3.DLL V5.20
+Dialog DLL:      DARMCM1.DLL V1.14.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.20.0
+Dialog DLL:      TARMCM1.DLL V1.10.0.0
+ 
+<h2>Project:</h2>
+C:\git_stm32\freertos_f030c4_clock_max7219\freertos_f030.uvprojx
+Project File Date:  06/02/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 2 (build 183)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'freertos_f030'
+compiling delays.c...
+compiling init.c...
+source\init.c(52): warning:  #177-D: variable "test" was declared but never referenced
+  	unsigned int test=0;
+source\init.c: 1 warning, 0 errors
+compiling main.c...
+source\main.c(130): warning:  #111-D: statement is unreachable
+  	return 0;
+source\main.c(49): warning:  #550-D: variable "error_semafor" was set but never used
+  	char error_semafor,error_task1,error_task2,error_timer;
+source\main.c(49): warning:  #550-D: variable "error_task1" was set but never used
+  	char error_semafor,error_task1,error_task2,error_timer;
+source\main.c(49): warning:  #550-D: variable "error_task2" was set but never used
+  	char error_semafor,error_task1,error_task2,error_timer;
+source\main.c(49): warning:  #550-D: variable "error_timer" was set but never used
+  	char error_semafor,error_task1,error_task2,error_timer;
+source\main.c(196): warning:  #174-D: expression has no effect
+  			 while(
+PIO_ISRESET(GPIOA,0)) 
+_NOP;  // delay
+source\main.c(234): warning:  #174-D: expression has no effect
+  			 while(
+PIO_ISRESET(GPIOA,0)) 
+_NOP;  // delay
+source\main.c(270): warning:  #174-D: expression has no effect
+  				while(
+PIO_ISRESET(GPIOA,0)) 
+_NOP;  // delay
+source\main.c(181): warning:  #177-D: variable "button" was declared but never referenced
+  	unsigned char button=0,temp=0;
+source\main.c(182): warning:  #177-D: variable "minut_setup" was declared but never referenced
+  	unsigned char clock_setup=0,minut_setup=0;
+source\main.c: 10 warnings, 0 errors
+compiling MAX7219.c...
+source\MAX7219.c(32): warning:  #177-D: variable "cnt" was declared but never referenced
+  	unsigned char cnt=0;
+source\MAX7219.c(130): warning:  #177-D: variable "temp3" was declared but never referenced
+  	unsigned char temp=0,temp2=0,temp3=0;
+source\MAX7219.c(145): warning:  #177-D: variable "temp3" was declared but never referenced
+  	unsigned char temp=0,temp2=0,temp3=0;
+source\MAX7219.c: 3 warnings, 0 errors
+compiling croutine.c...
+compiling list.c...
+compiling event_groups.c...
+compiling heap_1.c...
+compiling port.c...
+compiling stream_buffer.c...
+compiling queue.c...
+assembling startup_stm32f030x6.s...
+compiling timers.c...
+compiling system_stm32f0xx.c...
+compiling tasks.c...
+linking...
+Program Size: Code=9776 RO-data=208 RW-data=216 ZI-data=3880  
+FromELF: creating hex file...
+".\Objects\freertos_f030.axf" - 0 Error(s), 14 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F0xx_DFP.1.5.0.pack
+                Keil::Device:Startup:2.2.3
+                STMicroelectronics STM32F0 Series Device Support and Examples
+   * Component: Startup Version: 2.2.3
+
+<h2>Collection of Component include folders:</h2>
+  C:\git_stm32\freertos_f030c4_clock_max7219\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+
+   * Component: Keil::Device:Startup:2.2.3
+      Source file:   Device\Source\ARM\startup_stm32f030x6.s
+      Source file:   Device\Source\system_stm32f0xx.c
+      Source file:   Device\Source\ARM\STM32F0xx_OPT.s
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>

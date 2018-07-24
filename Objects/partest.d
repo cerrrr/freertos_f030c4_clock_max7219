@@ -1,0 +1,12 @@
+.\objects\partest.o: source\ParTest.c
+.\objects\partest.o: .\freertos\include\FreeRTOS.h
+.\objects\partest.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\partest.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\partest.o: .\freertos\FreeRTOSConfig.h
+.\objects\partest.o: .\freertos\include\projdefs.h
+.\objects\partest.o: .\freertos\include\portable.h
+.\objects\partest.o: .\freertos\include\deprecated_definitions.h
+.\objects\partest.o: .\freertos\include\portmacro.h
+.\objects\partest.o: .\freertos\include\mpu_wrappers.h
+.\objects\partest.o: .\freertos\include\task.h
+.\objects\partest.o: .\freertos\include\list.h

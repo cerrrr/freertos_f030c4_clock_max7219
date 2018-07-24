@@ -1,0 +1,203 @@
+Dependencies for Project 'freertos_f030', Target 'freertos_f030': (DO NOT MODIFY !)
+F (.\source\main.c)(0x5B1F197F)(-c --cpu Cortex-M0 -g -O3 -Otime --apcs=interwork --split_sections -I .\freertos -I .\freertos\include -I .\source -I .\Delays-I C:\git_stm32\freertos_f030c4_clock_max7219\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F030x6-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
+I (.\freertos\include\FreeRTOS.h)(0x5A185EC8)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\freertos\FreeRTOSConfig.h)(0x5B382B20)
+I (.\freertos\include\projdefs.h)(0x5A1893D6)
+I (.\freertos\include\portable.h)(0x5A185ECA)
+I (.\freertos\include\deprecated_definitions.h)(0x5A185EC7)
+I (.\freertos\include\portmacro.h)(0x5A185EFF)
+I (.\freertos\include\mpu_wrappers.h)(0x5A185ECA)
+I (.\freertos\include\task.h)(0x5A185ECF)
+I (.\freertos\include\list.h)(0x5A185EC9)
+I (.\freertos\include\semphr.h)(0x5A185ECC)
+I (.\freertos\include\queue.h)(0x5A185ECB)
+I (.\freertos\include\timers.h)(0x5A185ED0)
+I (source\init.h)(0x5AF39A51)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include\stm32f0xx.h)(0x56E9F63A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include\stm32f030x6.h)(0x56E9F63A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include\system_stm32f0xx.h)(0x56E9F63A)
+I (.\Delays\delays.h)(0x5AF98526)
+I (source\MAX7219.h)(0x5B00B60D)
+F (.\source\init.c)(0x5AF8FF90)(-c --cpu Cortex-M0 -g -O3 -Otime --apcs=interwork --split_sections -I .\freertos -I .\freertos\include -I .\source -I .\Delays-I C:\git_stm32\freertos_f030c4_clock_max7219\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F030x6-o .\objects\init.o --omf_browse .\objects\init.crf --depend .\objects\init.d)
+I (source\init.h)(0x5AF39A51)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include\stm32f0xx.h)(0x56E9F63A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include\stm32f030x6.h)(0x56E9F63A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include\system_stm32f0xx.h)(0x56E9F63A)
+F (.\Delays\delays.c)(0x5AF98518)(-c --cpu Cortex-M0 -g -O3 -Otime --apcs=interwork --split_sections -I .\freertos -I .\freertos\include -I .\source -I .\Delays-I C:\git_stm32\freertos_f030c4_clock_max7219\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F030x6-o .\objects\delays.o --omf_browse .\objects\delays.crf --depend .\objects\delays.d)
+I (Delays\delays.h)(0x5AF98526)
+F (.\source\MAX7219.c)(0x5B080C49)(-c --cpu Cortex-M0 -g -O3 -Otime --apcs=interwork --split_sections -I .\freertos -I .\freertos\include -I .\source -I .\Delays-I C:\git_stm32\freertos_f030c4_clock_max7219\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F030x6-o .\objects\max7219.o --omf_browse .\objects\max7219.crf --depend .\objects\max7219.d)
+I (source\MAX7219.h)(0x5B00B60D)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include\stm32f0xx.h)(0x56E9F63A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include\stm32f030x6.h)(0x56E9F63A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include\system_stm32f0xx.h)(0x56E9F63A)
+I (.\Delays\delays.h)(0x5AF98526)
+I (source\init.h)(0x5AF39A51)
+F (.\freertos\croutine.c)(0x5A185EC6)(-c --cpu Cortex-M0 -g -O3 -Otime --apcs=interwork --split_sections -I .\freertos -I .\freertos\include -I .\source -I .\Delays-I C:\git_stm32\freertos_f030c4_clock_max7219\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F030x6-o .\objects\croutine.o --omf_browse .\objects\croutine.crf --depend .\objects\croutine.d)
+I (.\freertos\include\FreeRTOS.h)(0x5A185EC8)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\freertos\FreeRTOSConfig.h)(0x5B382B20)
+I (.\freertos\include\projdefs.h)(0x5A1893D6)
+I (.\freertos\include\portable.h)(0x5A185ECA)
+I (.\freertos\include\deprecated_definitions.h)(0x5A185EC7)
+I (.\freertos\include\portmacro.h)(0x5A185EFF)
+I (.\freertos\include\mpu_wrappers.h)(0x5A185ECA)
+I (.\freertos\include\task.h)(0x5A185ECF)
+I (.\freertos\include\list.h)(0x5A185EC9)
+I (.\freertos\include\croutine.h)(0x5A185EC7)
+F (.\freertos\event_groups.c)(0x5A1C52B6)(-c --cpu Cortex-M0 -g -O3 -Otime --apcs=interwork --split_sections -I .\freertos -I .\freertos\include -I .\source -I .\Delays-I C:\git_stm32\freertos_f030c4_clock_max7219\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F030x6-o .\objects\event_groups.o --omf_browse .\objects\event_groups.crf --depend .\objects\event_groups.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (.\freertos\include\FreeRTOS.h)(0x5A185EC8)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\freertos\FreeRTOSConfig.h)(0x5B382B20)
+I (.\freertos\include\projdefs.h)(0x5A1893D6)
+I (.\freertos\include\portable.h)(0x5A185ECA)
+I (.\freertos\include\deprecated_definitions.h)(0x5A185EC7)
+I (.\freertos\include\portmacro.h)(0x5A185EFF)
+I (.\freertos\include\mpu_wrappers.h)(0x5A185ECA)
+I (.\freertos\include\task.h)(0x5A185ECF)
+I (.\freertos\include\list.h)(0x5A185EC9)
+I (.\freertos\include\timers.h)(0x5A185ED0)
+I (.\freertos\include\event_groups.h)(0x5A1C4918)
+F (.\freertos\heap_1.c)(0x5A185EF4)(-c --cpu Cortex-M0 -g -O3 -Otime --apcs=interwork --split_sections -I .\freertos -I .\freertos\include -I .\source -I .\Delays-I C:\git_stm32\freertos_f030c4_clock_max7219\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F030x6-o .\objects\heap_1.o --omf_browse .\objects\heap_1.crf --depend .\objects\heap_1.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (.\freertos\include\FreeRTOS.h)(0x5A185EC8)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\freertos\FreeRTOSConfig.h)(0x5B382B20)
+I (.\freertos\include\projdefs.h)(0x5A1893D6)
+I (.\freertos\include\portable.h)(0x5A185ECA)
+I (.\freertos\include\deprecated_definitions.h)(0x5A185EC7)
+I (.\freertos\include\portmacro.h)(0x5A185EFF)
+I (.\freertos\include\mpu_wrappers.h)(0x5A185ECA)
+I (.\freertos\include\task.h)(0x5A185ECF)
+I (.\freertos\include\list.h)(0x5A185EC9)
+F (.\freertos\list.c)(0x5A185ED0)(-c --cpu Cortex-M0 -g -O3 -Otime --apcs=interwork --split_sections -I .\freertos -I .\freertos\include -I .\source -I .\Delays-I C:\git_stm32\freertos_f030c4_clock_max7219\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F030x6-o .\objects\list.o --omf_browse .\objects\list.crf --depend .\objects\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (.\freertos\include\FreeRTOS.h)(0x5A185EC8)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\freertos\FreeRTOSConfig.h)(0x5B382B20)
+I (.\freertos\include\projdefs.h)(0x5A1893D6)
+I (.\freertos\include\portable.h)(0x5A185ECA)
+I (.\freertos\include\deprecated_definitions.h)(0x5A185EC7)
+I (.\freertos\include\portmacro.h)(0x5A185EFF)
+I (.\freertos\include\mpu_wrappers.h)(0x5A185ECA)
+I (.\freertos\include\list.h)(0x5A185EC9)
+F (.\freertos\port.c)(0x5A185EFF)(-c --cpu Cortex-M0 -g -O3 -Otime --apcs=interwork --split_sections -I .\freertos -I .\freertos\include -I .\source -I .\Delays-I C:\git_stm32\freertos_f030c4_clock_max7219\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F030x6-o .\objects\port.o --omf_browse .\objects\port.crf --depend .\objects\port.d)
+I (.\freertos\include\FreeRTOS.h)(0x5A185EC8)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\freertos\FreeRTOSConfig.h)(0x5B382B20)
+I (.\freertos\include\projdefs.h)(0x5A1893D6)
+I (.\freertos\include\portable.h)(0x5A185ECA)
+I (.\freertos\include\deprecated_definitions.h)(0x5A185EC7)
+I (.\freertos\include\portmacro.h)(0x5A185EFF)
+I (.\freertos\include\mpu_wrappers.h)(0x5A185ECA)
+I (.\freertos\include\task.h)(0x5A185ECF)
+I (.\freertos\include\list.h)(0x5A185EC9)
+F (.\freertos\queue.c)(0x5A185F07)(-c --cpu Cortex-M0 -g -O3 -Otime --apcs=interwork --split_sections -I .\freertos -I .\freertos\include -I .\source -I .\Delays-I C:\git_stm32\freertos_f030c4_clock_max7219\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F030x6-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
+I (.\freertos\include\FreeRTOS.h)(0x5A185EC8)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\freertos\FreeRTOSConfig.h)(0x5B382B20)
+I (.\freertos\include\projdefs.h)(0x5A1893D6)
+I (.\freertos\include\portable.h)(0x5A185ECA)
+I (.\freertos\include\deprecated_definitions.h)(0x5A185EC7)
+I (.\freertos\include\portmacro.h)(0x5A185EFF)
+I (.\freertos\include\mpu_wrappers.h)(0x5A185ECA)
+I (.\freertos\include\task.h)(0x5A185ECF)
+I (.\freertos\include\list.h)(0x5A185EC9)
+I (.\freertos\include\queue.h)(0x5A185ECB)
+F (.\freertos\stream_buffer.c)(0x5A1CDF56)(-c --cpu Cortex-M0 -g -O3 -Otime --apcs=interwork --split_sections -I .\freertos -I .\freertos\include -I .\source -I .\Delays-I C:\git_stm32\freertos_f030c4_clock_max7219\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F030x6-o .\objects\stream_buffer.o --omf_browse .\objects\stream_buffer.crf --depend .\objects\stream_buffer.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
+I (.\freertos\include\FreeRTOS.h)(0x5A185EC8)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (.\freertos\FreeRTOSConfig.h)(0x5B382B20)
+I (.\freertos\include\projdefs.h)(0x5A1893D6)
+I (.\freertos\include\portable.h)(0x5A185ECA)
+I (.\freertos\include\deprecated_definitions.h)(0x5A185EC7)
+I (.\freertos\include\portmacro.h)(0x5A185EFF)
+I (.\freertos\include\mpu_wrappers.h)(0x5A185ECA)
+I (.\freertos\include\task.h)(0x5A185ECF)
+I (.\freertos\include\list.h)(0x5A185EC9)
+I (.\freertos\include\stream_buffer.h)(0x5A185ECD)
+F (.\freertos\tasks.c)(0x5A188C1E)(-c --cpu Cortex-M0 -g -O3 -Otime --apcs=interwork --split_sections -I .\freertos -I .\freertos\include -I .\source -I .\Delays-I C:\git_stm32\freertos_f030c4_clock_max7219\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F030x6-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
+I (.\freertos\include\FreeRTOS.h)(0x5A185EC8)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\freertos\FreeRTOSConfig.h)(0x5B382B20)
+I (.\freertos\include\projdefs.h)(0x5A1893D6)
+I (.\freertos\include\portable.h)(0x5A185ECA)
+I (.\freertos\include\deprecated_definitions.h)(0x5A185EC7)
+I (.\freertos\include\portmacro.h)(0x5A185EFF)
+I (.\freertos\include\mpu_wrappers.h)(0x5A185ECA)
+I (.\freertos\include\task.h)(0x5A185ECF)
+I (.\freertos\include\list.h)(0x5A185EC9)
+I (.\freertos\include\timers.h)(0x5A185ED0)
+I (.\freertos\include\stack_macros.h)(0x5A185ECC)
+F (.\freertos\timers.c)(0x5A185F0D)(-c --cpu Cortex-M0 -g -O3 -Otime --apcs=interwork --split_sections -I .\freertos -I .\freertos\include -I .\source -I .\Delays-I C:\git_stm32\freertos_f030c4_clock_max7219\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F030x6-o .\objects\timers.o --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (.\freertos\include\FreeRTOS.h)(0x5A185EC8)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\freertos\FreeRTOSConfig.h)(0x5B382B20)
+I (.\freertos\include\projdefs.h)(0x5A1893D6)
+I (.\freertos\include\portable.h)(0x5A185ECA)
+I (.\freertos\include\deprecated_definitions.h)(0x5A185EC7)
+I (.\freertos\include\portmacro.h)(0x5A185EFF)
+I (.\freertos\include\mpu_wrappers.h)(0x5A185ECA)
+I (.\freertos\include\task.h)(0x5A185ECF)
+I (.\freertos\include\list.h)(0x5A185EC9)
+I (.\freertos\include\queue.h)(0x5A185ECB)
+I (.\freertos\include\timers.h)(0x5A185ED0)
+F (.\freertos\include\croutine.h)(0x5A185EC7)()
+F (.\freertos\include\deprecated_definitions.h)(0x5A185EC7)()
+F (.\freertos\include\event_groups.h)(0x5A1C4918)()
+F (.\freertos\include\FreeRTOS.h)(0x5A185EC8)()
+F (.\freertos\include\list.h)(0x5A185EC9)()
+F (.\freertos\include\message_buffer.h)(0x5A185EC9)()
+F (.\freertos\include\mpu_prototypes.h)(0x5A185EC9)()
+F (.\freertos\include\mpu_wrappers.h)(0x5A185ECA)()
+F (.\freertos\include\portable.h)(0x5A185ECA)()
+F (.\freertos\include\projdefs.h)(0x5A1893D6)()
+F (.\freertos\include\queue.h)(0x5A185ECB)()
+F (.\freertos\include\semphr.h)(0x5A185ECC)()
+F (.\freertos\include\stack_macros.h)(0x5A185ECC)()
+F (.\freertos\include\StackMacros.h)(0x5A18A3AB)()
+F (.\freertos\include\stream_buffer.h)(0x5A185ECD)()
+F (.\freertos\include\task.h)(0x5A185ECF)()
+F (.\freertos\include\timers.h)(0x5A185ED0)()
+F (RTE\Device\STM32F030F4\startup_stm32f030x6.s)(0x56E9F63A)(--cpu Cortex-M0 -g --apcs=interwork -I .\freertos -I .\freertos\include -I .\source-I C:\git_stm32\freertos_f030c4_clock_max7219\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include--pd "__UVISION_VERSION SETA 520" --pd "_RTE_ SETA 1" --pd "STM32F030x6 SETA 1"--list .\listings\startup_stm32f030x6.lst --xref -o .\objects\startup_stm32f030x6.o --depend .\objects\startup_stm32f030x6.d)
+F (RTE\Device\STM32F030F4\system_stm32f0xx.c)(0x56E9F63A)(-c --cpu Cortex-M0 -g -O3 -Otime --apcs=interwork --split_sections -I .\freertos -I .\freertos\include -I .\source -I .\Delays-I C:\git_stm32\freertos_f030c4_clock_max7219\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F030x6-o .\objects\system_stm32f0xx.o --omf_browse .\objects\system_stm32f0xx.crf --depend .\objects\system_stm32f0xx.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include\stm32f0xx.h)(0x56E9F63A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include\stm32f030x6.h)(0x56E9F63A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include\system_stm32f0xx.h)(0x56E9F63A)

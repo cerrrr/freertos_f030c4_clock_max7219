@@ -1,0 +1,13 @@
+.\objects\main-blinky.o: source\main-blinky.c
+.\objects\main-blinky.o: .\freertos\include\FreeRTOS.h
+.\objects\main-blinky.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\main-blinky.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main-blinky.o: .\freertos\FreeRTOSConfig.h
+.\objects\main-blinky.o: .\freertos\include\projdefs.h
+.\objects\main-blinky.o: .\freertos\include\portable.h
+.\objects\main-blinky.o: .\freertos\include\deprecated_definitions.h
+.\objects\main-blinky.o: .\freertos\include\portmacro.h
+.\objects\main-blinky.o: .\freertos\include\mpu_wrappers.h
+.\objects\main-blinky.o: .\freertos\include\task.h
+.\objects\main-blinky.o: .\freertos\include\list.h
+.\objects\main-blinky.o: .\freertos\include\queue.h
